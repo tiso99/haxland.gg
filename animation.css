@@ -1,0 +1,23 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+header nav ul li a {
+    animation: fadeIn 1s ease-in-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+header nav ul li:nth-child(2) a {
+    animation-delay: 1s;
+}
+
+header nav ul li:nth-child(3) a {
+    animation-delay: 1.5s;
+}
+
+header nav ul li:nth-child(4) a {
+    animation-delay: 2s;
+}
